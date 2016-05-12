@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+  // https://golang.org/ref/spec#Lexical_elements
+
   fmt.Println("go" + "lang")
 
   fmt.Println("1+1 =", 1+1)
