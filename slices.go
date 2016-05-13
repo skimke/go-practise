@@ -5,7 +5,7 @@ import "fmt"
 func main() {
   // https://golang.org/ref/spec#Slice_types
 
-  // unlike arrays, typed just by the elements within - no number specified
+  // unlike arrays, typed just by the elements within - no length specified
   s := make([]string, 3) // built-in func make takes in the length - https://golang.org/ref/spec#Making_slices_maps_and_channels
   fmt.Println("empty:", s)
 
